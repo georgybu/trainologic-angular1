@@ -1,0 +1,10 @@
+<div ng-init="node.init()">
+    <h2 class="title"
+        ng-class="{'group-title': node.node.hasNodes}"
+        ng-click="node.toggle()">{{node.node.title}}</h2>
+    <div ng-if="node.node.nodes.length > 0">
+        <node ng-repeat="iNode in node.node.nodes track by iNode.id"
+              node="iNode"
+              input-port="node.inputPort"></node>
+    </div>
+</div>
