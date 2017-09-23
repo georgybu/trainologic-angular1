@@ -57,3 +57,15 @@ An expanded group can be collapsed by clicking it again
 A group that is collapsed should not incur any overhead (DOM and angular). That means that a collapsed group’s children are not part of the DOM and are created/destroyed per user click
 
 You should implement the same look & feel (CSS) as described by the screen shots above
+
+## Run The Application ##
+
+Install Yarn
+```
+npm install -g yarn
+```
+To start the application
+```
+yarn start
+```
+And go to [`localhost:8000`](http://localhost:8000)
