@@ -114,3 +114,4 @@ fabric.properties
 /public/
 
 .idea
+package-lock.json
