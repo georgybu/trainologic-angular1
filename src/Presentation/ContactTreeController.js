@@ -1,5 +1,5 @@
-const TreeViewModel = require('./Tree/TreeViewModel')
-const NodeViewModel = require('./Tree/NodeViewModel')
+import TreeViewModel from './Tree/TreeViewModel'
+import NodeViewModel from './Tree/NodeViewModel'
 
 /**
  * @class ContactTreeController
@@ -41,4 +41,4 @@ ContactTreeController.prototype.getTree = function (id, output) {
   this._contactTree.getContacts(id, this)
 }
 
-module.exports = ContactTreeController
+export default ContactTreeController

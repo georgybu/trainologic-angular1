@@ -1,4 +1,4 @@
-const NodeViewModel = require('./NodeViewModel')
+import NodeViewModel from './NodeViewModel'
 
 /**
  * @class NodeController
@@ -43,4 +43,4 @@ NodeController.prototype.presentTree = function (response) {
   }
 }
 
-module.exports = NodeController
+export default NodeController

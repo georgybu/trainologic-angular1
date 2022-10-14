@@ -1,8 +1,9 @@
-const angular = require('angular')
-require('angular-route')
-require('./Module/tree')
-const ContactTreeController = require('../../../Presentation/ContactTreeController')
-const ContactTree = require('../../../Application/ContactTree')
+import angular from 'angular'
+import ContactTreeController from '../../../Presentation/ContactTreeController'
+import ContactTree from '../../../Application/ContactTree'
+
+import 'angular-route';
+import './Module/tree';
 
 /**
  * @class Application
@@ -21,4 +22,4 @@ class Application {
   }
 }
 
-module.exports = Application
+export default Application

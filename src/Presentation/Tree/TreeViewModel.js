@@ -10,4 +10,4 @@ class TreeViewModel {
   }
 }
 
-module.exports = TreeViewModel
+export default TreeViewModel

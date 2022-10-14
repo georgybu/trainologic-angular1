@@ -1,5 +1,5 @@
-const ContactTreeResponse = require('./ContactTreeResponse')
-const ContactResponse = require('./ContactResponse')
+import ContactTreeResponse from './ContactTreeResponse'
+import ContactResponse from './ContactResponse'
 
 /**
  * @class ContactTree
@@ -84,4 +84,4 @@ function findNode (id, tree) {
   return null
 }
 
-module.exports = ContactTree
+export default ContactTree

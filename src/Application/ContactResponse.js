@@ -22,4 +22,4 @@ class ContactResponse {
   }
 }
 
-module.exports = ContactResponse
+export default ContactResponse

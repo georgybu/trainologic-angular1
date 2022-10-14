@@ -10,4 +10,4 @@ class ContactTreeResponse {
   }
 }
 
-module.exports = ContactTreeResponse
+export default ContactTreeResponse

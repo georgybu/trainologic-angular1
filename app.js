@@ -1,4 +1,7 @@
-const Application = require('./Ui/Web/Angular/Application')
+import Application from './src/Ui/Web/Angular/Application'
+
+import './src/app.scss'
+
 /**
  * @type {angular.Module}
  */
@@ -9,7 +12,7 @@ app.config(['$locationProvider', '$routeProvider',
     $locationProvider.html5Mode(true)
 
     $routeProvider.when('/', {
-      templateUrl: '_contactTree.html',
+      templateUrl: '/src/Ui/Web/Angular/Public/_contactTree.html',
       controller: 'ContactTreeController',
       controllerAs: 'contacts'
     })

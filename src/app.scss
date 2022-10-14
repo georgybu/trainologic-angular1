@@ -1,10 +1,12 @@
 node {
   display: block;
+
   &.root-node {
     node node {
       margin-left: 40px;
     }
   }
+
   .group-title {
     &:hover {
       cursor: pointer;

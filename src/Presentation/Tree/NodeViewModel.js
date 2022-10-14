@@ -22,4 +22,4 @@ class NodeViewModel {
   }
 }
 
-module.exports = NodeViewModel
+export default NodeViewModel

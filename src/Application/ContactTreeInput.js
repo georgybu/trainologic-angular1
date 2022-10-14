@@ -9,4 +9,4 @@ class ContactTreeInput {
   getContacts (id, output) {}
 }
 
-module.exports = ContactTreeInput
+export default ContactTreeInput

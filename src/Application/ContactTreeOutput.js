@@ -8,4 +8,4 @@ class ContactTreeOutput {
   presentContacts (response) {}
 }
 
-module.exports = ContactTreeOutput
+export default ContactTreeOutput

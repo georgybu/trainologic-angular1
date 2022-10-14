@@ -10,4 +10,4 @@ class TreeInput {
  */
 TreeInput.prototype.getTree = function (nodeId, output) {}
 
-module.exports = TreeInput
+export default TreeInput

@@ -9,4 +9,4 @@ class TreeOutput {
  */
 TreeOutput.prototype.presentTree = function (response) {}
 
-module.exports = TreeOutput
+export default TreeOutput

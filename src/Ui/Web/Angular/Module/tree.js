@@ -1,12 +1,12 @@
-const angular = require('angular')
-const NodeController = require('../../../../Presentation/Tree/NodeController')
+import angular from 'angular'
+import NodeController from '../../../../Presentation/Tree/NodeController'
 
 /**
  * @type {angular.Module}
  */
-module.exports = angular.module('tree', [])
+export default angular.module('tree', [])
   .component('node', {
-    templateUrl: '_node.html',
+    templateUrl: '/src/Ui/Web/Angular/Public/_node.html',
     controller: 'NodeController',
     controllerAs: 'node',
     bindings: {
